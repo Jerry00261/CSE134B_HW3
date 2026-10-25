@@ -1,0 +1,64 @@
+/* Jerry Barillas - https://github.com/Jerry00261/CSE134B_HW3 */
+
+body {
+    font-family: Georgia, 'Times New Roman';
+    line-height: 1.8;
+    color: black;
+    max-width: 48rem;
+    margin: 10px auto;
+    padding: 1.5rem;
+    background-color: #e8e3cb;
+    border: 2px solid #c79412;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 4px solid #0a0600; 
+
+}
+
+/* When two rules have the same specificity then the 
+rule that is after the initial one gets higher priority
+and then overrides the earlier rule.  */
+h2 {
+    font-size: 2.25rem;
+    border-bottom-color: #c79412;
+}
+
+.latin{
+    font-style: italic;
+}
+
+#warning {
+    background-color: #fae9b1;
+    padding: 0.5rem;
+    border-left: 2mm solid #c79412;
+}
+
+blockquote {
+    border: 2px solid #c79412;
+    margin: 2em;
+    padding: 1rem;
+    background-color: #fbf1cd;
+}
+
+dt {
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+a:hover {
+    text-shadow: 1px 3px #0a0600;
+    color: #b80d1e;
+}
+
+a:focus, input:focus, button:focus {
+    outline: 3px solid #cf9da2;
+    outline-offset: 3px;
+    background-color: #c79412;
+}
